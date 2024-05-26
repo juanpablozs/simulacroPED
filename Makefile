@@ -6,3 +6,12 @@ all:
 
 clean:
 	@echo "Limpiando..."
+
+servidor:
+	python3 servidor.py
+
+cliente:
+	python3 cliente.py
+
+test:
+	python3 -m unittest discover -v
